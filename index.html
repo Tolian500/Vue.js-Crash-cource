@@ -9,7 +9,12 @@
 <body>
     <div id="app">
 
-        {{message}}
+        <h1>
+            {{message}}
+        </h1>
+        <button @click="clickMe">Click Me</button>
+
+
     </div>
 
     <script>
@@ -18,6 +23,12 @@
                 return {
                     message: 'Hello From Vue!'
 
+                }
+            },
+            methods:{
+                clickMe() {
+                    console.log('Buton Clicked');
+                    this.message = 'Updated Message';
                 }
             }
         });
