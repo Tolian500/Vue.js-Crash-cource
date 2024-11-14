@@ -18,11 +18,11 @@ defineProps({
 const state = reactive({
     jobs: [],
     isLoading:true
-})
+});
 
 onMounted(async () => {
     try{
-        const response = await axios.get('http://localhost:5000/jobs');
+        const response = await axios.get('/api/jobs');
         state.jobs = response.data;
 
     }catch (error) {
