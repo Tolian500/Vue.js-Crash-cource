@@ -83,34 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "8d41",
-      "title": "sgsa",
-      "type": "Full-Time",
-      "location": "asgas",
-      "description": "",
-      "salary": "$100K - $125K",
-      "company": {
-        "name": "asg",
-        "description": "sag",
-        "contactEmail": "asg@sg.cs",
-        "contactPhone": "asg"
-      }
-    },
-    {
-      "id": "77a0",
-      "title": "sgsa",
-      "type": "Full-Time",
-      "location": "asgas",
-      "description": "",
-      "salary": "$100K - $125K",
-      "company": {
-        "name": "asg",
-        "description": "asg",
-        "contactEmail": "asg@sg.cs",
-        "contactPhone": "asg"
-      }
     }
   ]
 }
